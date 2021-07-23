@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/718cb71c8e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Burger King</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active carousel-img">
+                <img src="images/carousel-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Best <span>Quality</span> <br> Ingredients</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius adipisci <br> quae dolorum in
+                        molestiae
+                        corrupti.</p>
+
+                    <div class="slider-btn">
+                        <button class=" custom-btn">View Menu</button>
+                        <button class="custom-btn">Book Table</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-img">
+                <img src="images/carousel-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>World's <span>Best</span> Chef</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius adipisci <br> quae dolorum in
+                        molestiae
+                        corrupti.</p>
+                    <div class="slider-btn">
+                        <button class="custom-btn">View Menu</button>
+                        <button class="custom-btn">Book Table</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-img">
+                <img src="images/carousel-3.jpg" class="d-block w-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Fastest Our <span>Delivery</span></h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius adipisci <br> quae dolorum in
+                        molestiae
+                        corrupti.</p>
+                    <div class="slider-btn">
+                        <button class="custom-btn">View Menu</button>
+                        <button class="custom-btn">Book Table</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Book a table -->
+
+    <div class="booking">
+        <div class="container">
+            <div class="row align-items-center mt-5">
+                <div class="col-lg-7">
+                    <div class="booking-content">
+                        <div class="header">
+                            <p>Book A Table</p>
+                            <h2>Book Your Table For Private Dinners & Happy Hours</h2>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
+                            facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
+                            viverra quis sem.</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
+                            facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
+                            viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur
+                            convallis porttitor. Aliquam interdum at lacus non blandit.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="booking-form">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Name" required="">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Name" required="">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Name" required="">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Name" required="">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Name" required="">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Name" required="">
+                        </div>
+
+                        <button class="book-btn" type="submit">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- abou section -->
+
+    <div class="about">
+        <div class="container">
+            <div class="row align-items-center mt-5">
+                <div class="col-md-6">
+                    <div class="about-img">
+                        <img class="img-fluid" src="images/about.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="header">
+                        <p>About Us</p>
+                        <h2>Cooking Since 1990</h2>
+                    </div>
+
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
+                            facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
+                            viverra quis sem.</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
+                            facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
+                            viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur
+                            convallis porttitor. Aliquam interdum at lacus non blandit.</p>
+                    </div>
+
+                    <a class=" custom-btn1" href="#">Book A Table</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- future section -->
+
+
+    <div class="feature">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-5">
+                    <div class="header">
+                        <p>Why Choose Us</p>
+                        <h2>Our Key Features</h2>
+                    </div>
+                    <div class="feature-text">
+                        <div class="feature-img">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>
+                                        <img src="images/feature-1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div>
+                                        <img src="images/feature-2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div>
+                                        <img src="images/feature-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div>
+                                        <img src="images/feature-4.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <p>Lorem ipsum dolor sit amet consec adipis elit. Phasel nec preti mi. Curabit facilis
+                                    ornare
+                                    velit non vulputa. Aliquam metus tortor, auctor id gravida condime, viverra quis
+                                    sem.
+                                    Curabit non nisl nec nisi sceleri maximus</p>
+
+
+                                <button class="book-btn1" type="submit">Book Now</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="row mt-5">
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <div>
+                                    <i class="fas fa-hamburger"></i>
+                                </div>
+                                <h3>World’s best Chef</h3>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit
+                                    non vulput metus tortor</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <div>
+                                    <i class="fas fa-hamburger"></i>
+                                </div>
+                                <h3>Natural ingredients</h3>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit
+                                    non vulput metus tortor</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <div>
+                                    <i class="fas fa-hamburger"></i>
+                                </div>
+                                <h3>Best quality products</h3>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit
+                                    non vulput metus tortor</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <div>
+                                    <i class="fas fa-hamburger"></i>
+                                </div>
+                                <h3>Fresh vegetables & Meet</h3>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit
+                                    non vulput metus tortor</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <div>
+                                    <i class="fas fa-hamburger"></i>
+                                </div>
+                                <h3>Fastest door delivery</h3>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit
+                                    non vulput metus tortor</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <div>
+                                    <i class="fas fa-hamburger"></i>
+                                </div>
+                                <h3>Ground beef & Low fat</h3>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit
+                                    non vulput metus tortor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="recipe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box shadow-lg">
+                        <div class="imgBx">
+                            <i class="fas fa-hamburger"></i>
+                        </div>
+                        <div class="text text-center">
+                            <h2>Burgers</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, sequi hic. Mollitia,
+                                cupiditate
+                                odio. Itaque.</p>
+                            <h6>View Menu</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box shadow-lg">
+                        <div class="imgBx">
+                            <i class="fas fa-cookie"></i>
+                        </div>
+                        <div class="text text-center">
+                            <h2>Snacks</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, sequi hic. Mollitia,
+                                cupiditate
+                                odio. Itaque.</p>
+                            <h6>View Menu</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box shadow-lg">
+                        <div class="imgBx">
+                            <i class="fas fa-wine-glass-alt"></i>
+                        </div>
+                        <div class="text text-center">
+                            <h2>Beverages</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, sequi hic. Mollitia,
+                                cupiditate
+                                odio. Itaque.</p>
+                            <h6>View Menu</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Delicious Food Menu -->
+
+    <div class="container">
+        <div class="head text-center">
+            <p>Food Menu</p>
+            <h2>Delicious Food Menu</h2>
+        </div>
+
+        <div class="menu">
+            <button class="menu-btn1">Burgers</button>
+            <button class="menu-btn">Burgers</button>
+            <button class="menu-btn">Burgers</button>
+        </div>
+        <div class="delicious-menu">
+            <div class="row ">
+                <div class="col-lg-7 ">
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="images/small.jpg" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <h3>Mini cheese Burger....................
+                                <span>$9.00</span>
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="images/small.jpg" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <h3>Mini cheese Burger....................
+                                <span>$9.00</span>
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="images/small.jpg" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <h3>Mini cheese Burger....................
+                                <span>$9.00</span>
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="images/small.jpg" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <h3>Mini cheese Burger....................
+                                <span>$9.00</span>
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="images/small.jpg" alt="">
+                        </div>
+                        <div class="menu-text">
+                            <h3>Mini cheese Burger....................
+                                <span>$9.00</span>
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 big-img">
+                    <img class="img-fluid" src="images/menu-burger-img (1).jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+     .custom-btn{
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: 800;
+        color: #fff;
+        background: #fbaf32;
+        border: 2px ;
+        border-radius: 5px;
+        transition: .4s;
+    } 
+
+
+    .carousel-item{
+        height: 100vh;
+        background :no-repeat scroll center scroll;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .carousel-caption{
+        margin-bottom:120px ; 
+    }
+
+    .carousel-item::before{
+        position: absolute;
+        display: block;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #000;
+        opacity: 0.7;
+    }
+
+    .carousel-caption h1{
+        font-family: 'Nunito', sans-serif;
+        font-size: 60px;
+        font-weight: 800;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .carousel-caption p{
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .carousel-caption span{
+        color: #fbaf32;
+    }
+
+    .custom-btn:last-child{
+        margin-left: 10px;
+        background: #719a0a;
+        border-color: #719a0a;
+       
+    }
+
+    .custom-btn:hover{
+        border: 2px solid #fbaf32 ;
+        color: #fbaf32;
+        border-radius: 5px;
+        background-color: transparent;
+    }
+
+     .custom-btn:hover:last-child{
+        color: #719a0a;
+        border: 2px solid #719a0a;
+        border-radius: 5px;
+    }
+
+    /* 2nd part */
+
+    .booking-content{
+        padding: 45px 0 15px;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left
+    }
+
+    .header{
+        margin-bottom: 30px;
+    }
+
+    .header p{
+        color: #719a0a;
+        margin-bottom: 5px;
+        position: relative;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .header h2{
+        font-family: 'Nunito', sans-serif;
+        font-size: 45px;
+        font-weight: 800;
+    }
+
+    .booking-form{
+        padding: 60px 30px;
+        background: #fbaf32;
+
+    }
+
+    .input-group{
+        position: relative;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .input-group input{
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    }
+
+    .book-btn{
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 5px;
+        width: 100%;
+        color: #fbaf32;
+        background: #fff;
+        border: 1px solid #fff;
+        transition: .5s;
+    }
+
+    .book-btn:hover{
+        border: 2px solid #ffffff ;
+        color: #ffffff;
+        border-radius: 5px;
+        background-color: transparent;
+    }
+
+    .custom-btn1{
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: 800;
+        color: #fff;
+        background: #fbaf32;
+        border: 2px ;
+        border-radius: 5px;
+        transition: .4s;
+    }
+
+    .custom-btn1:hover{
+        border: 2px solid #fbaf32 ;
+        color: #fbaf32;
+        border-radius: 5px;
+        background-color: transparent;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .feature-text{
+        position: relative;
+        width: 100%;
+    }
+
+    .feature-img{
+        border-radius: 15px;
+        margin-bottom: 25px;
+        overflow: hidden;
+    }
+
+    .book-btn1{
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 5px;
+        width: 100%;
+        color: #fff;
+        background: #fbaf32;
+        border: 1px solid #fff;
+        transition: .5s;
+    }
+
+    .book-btn1:hover{
+        border: 2px solid #fbaf32 ;
+        color: #fbaf32;
+        border-radius: 5px;
+        background-color: transparent;
+    }
+
+    .feature-item{
+        padding: 40px 10px;
+    }
+
+    .fa-hamburger{
+        color: #fbaf32;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .feature-img:hover{
+        transform: skew(0.5);
+       
+    }
+
+
+    .recipe{
+        background-color: #efefef;
+    }
+
+    .fa-wine-glass-alt{
+        color: #fbaf32;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s;
+    }
+
+    .fa-wine-glass-alt:hover{
+        color: #719a0a;
+        transform: rotate(360deg);
+        transition: .5s;
+    }
+
+    .fa-hamburger{
+        color: #fbaf32;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-hamburger:hover{
+        color: #719a0a;
+        transform: rotate(360deg);
+        transition: .5s;
+    }
+
+    .fa-cookie{
+        font-size: 50px;
+        color: #fbaf32;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-cookie:hover{
+        color: #719a0a;
+        transform: rotate(360deg);
+        transition: .5s;
+    }
+
+    .box{
+     width: 340px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    transition: .5s;
+    }
+
+     .text h6{
+         color: #fbaf32;
+         font-size: 20px;
+    } 
+
+    .text h6:hover{
+        color: #719a0a;
+    }
+
+    .text h2{
+        font-weight: bold;
+    }
+
+    .head p{
+        color: #719a0a;
+        margin-bottom: 5px;
+        position: relative;
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+    .head h2{
+        font-family: 'Nunito', sans-serif;
+        font-size: 45px;
+        font-weight: 800;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        
+    }
+
+    .menu-btn{
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: 800;
+        color: #fff;
+        background: #fbaf32;
+        border: 2px;
+        border-radius: 5px;
+        transition: .4s;
+        margin-bottom: 20px;
+        margin:0 20px;
+    }
+    .menu-btn1{
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: 800;
+        color: #fff;
+        background: #719a0a;
+        border: 2px;
+        border-radius: 5px;
+        transition: .4s;
+        margin-bottom: 20px;
+        margin:0 20px;
+
+    }
+
+    .menu-btn:hover{
+        background: #719a0a;
+
+    }
+
+    .delicious-menu{
+        margin-top: 70px;
+    }
+
+    .menu-item{
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-img{
+        width: 80px;
+        margin-right: 20px;
+    }
+
+    .menu-img img{
+        border-radius: 100%;
+        width: 100%;
+    }
+
+    .big-img img{
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    
