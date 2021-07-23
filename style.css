@@ -12,7 +12,7 @@
         font-weight: 800;
         color: #fff;
         background: #fbaf32;
-        border: 2px ;
+        border: 2px solid #fbaf32;
         border-radius: 5px;
         transition: .4s;
     } 
@@ -226,7 +226,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: 0.2s;
+        
     }
 
     .fa-wine-glass-alt:hover{
@@ -368,4 +368,55 @@
         object-fit: cover;
     }
 
+    .chef{
+        position: relative;
+        margin-bottom: 30px;
+        background: #fff;
+    }
+
+    .chef-img{
+        position: relative;
+        border-radius: 15px 15px 0 0;
+        overflow: hidden;
+    }
+
+    .chef-img img{
+        position: relative;
+        width: 100%;
+        margin-top: 15px;
+        transform: scale(1.1);
+        object-fit: cover;
+        filter: brightness(0.5) grayscale(100);
+        transition: 0.3s ease-in-out;
+    }
+
+    .chef-img:hover img{
+        filter: brightness(1) grayscale(0);
+    }
+
+
+
+    img{
+        vertical-align: middle;
+        border-style: none;
+    }
+
+    .chef-text{
+        position: relative;
+        padding: 25px 15px;
+        text-align: center;
+        background: #fff;
+        border: 1px solid rgba(0,0,0,.07);
+        border-top: none;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .chef-text h2{
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .chef-sec{
+        margin-top: 70px;
+    }
     
